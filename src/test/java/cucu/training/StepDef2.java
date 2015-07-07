@@ -24,7 +24,7 @@ public class StepDef2 {
         try {
             find(marker);
             result = true;
-        }catch(NoSuchElementException e) {
+        }catch(NoSuchElementExceptionыыыы e) {
 
         }
         Assert.assertTrue("232323The element " + marker + " is not present", result);
