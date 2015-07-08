@@ -27,6 +27,6 @@ public class StepDef2 {
         }catch(NoSuchElementException e) {
 
         }
-        Assert.assertTrue("6666The element " + marker + " is not present", result);
+        Assert.assertTrue("7777The element " + marker + " is not present", result);
     }
 }
