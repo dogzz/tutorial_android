@@ -28,7 +28,7 @@ import static appium.tutorial.android.util.Helpers.driver;
 public class AppiumTest implements SauceOnDemandSessionIdProvider {
 
     static {
-        // Disable annoying cookie warnings.
+        // Disable annoying cookie warnings.orig from master
         // WARNING: Invalid cookie header
         LogFactory.getFactory().setAttribute("org.apache.commons.logging.Log", "org.apache.commons.logging.impl.NoOpLog");
     }
